@@ -3,42 +3,44 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    }
-    
-    .textOutput {
+}
+
+.textOutput {
     font-size: 20px;
     text-align: left;
     margin-top: 20px;
-    }
-    #text_tag {
-        font-size: 24px;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 10px;
-        }
-    
-    textarea {
-        margin: 15px;
-        outline: none;
-        padding: 15px 15px;
-        height: auto;
-        width: 75%;
-        min-height: 10px;
-        font-size: 24px;
-        line-height: 1.5;
-    }
-    textarea::selection {
-        background-color: grey;
-        color: black;
-    
-    }
-    
-    .buttons {
+}
+
+#text_tag {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin: 15px;
+    outline: none;
+    padding: 15px 15px;
+    height: auto;
+    width: 75%;
+    min-height: 10px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+textarea::selection {
+    background-color: grey;
+    color: black;
+
+}
+
+.buttons {
     text-align: left;
     margin: 20px;
-    }
-    
-    button {
+}
+
+button {
     padding: 10px 20px;
     margin: 0 10px;
     background-color: #007bff;
@@ -46,11 +48,12 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    }
-    
-    button:hover {
+}
+
+button:hover {
     background-color: #0056b3;
-    }
-    .rows{
-        padding: 10px;
-    }
+}
+
+.rows {
+    padding: 10px;
+}
