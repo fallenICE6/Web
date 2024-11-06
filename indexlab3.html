@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости</title>
+    <script src="object.js"></script>
+</head>
+<body>
+<script>
+    const data =
+        {
+            id: 1,
+            img: 'https://cdn.bcs-express.ru/article-image/74c329e4-c826-4ad6-9989-11cbdbc56f27/945274d3c7fe49118c3f20ec168a817a.png',
+            title: 'Расписки Qiwi теряют более 25%!',
+            shortDesc: '21 февраля 2024 года цена торгующихся на Московской бирже глобальных депозитарных расписок (ГДР) группы QIWI снизилась на 25%.',
+            longDesc: '21 февраля 2024 года цена торгующихся на Московской бирже глобальных депозитарных расписок (ГДР) группы QIWI снизилась на 25%. Это произошло после того, как Банк России отозвал лицензию у российского Киви-банка.',
+        }
+
+		const arrayEl = new IterableObj(data);
+    for (const El of arrayEl) {
+        console.log(El);
+    }
+</script>
+</body>
+</html>
+
+    
+
